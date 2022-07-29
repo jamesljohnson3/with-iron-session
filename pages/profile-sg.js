@@ -31,7 +31,7 @@ const SgProfile = () => {
 }
 
 function githubUrl(login) {
-  return `https://ffo4vnt2.directus.app/items/users/${login}`
+  return `https://vpj1pfpt.directus.app/items/users/${login}`
 }
 
 export default SgProfile
