@@ -49,7 +49,7 @@ export const getServerSideProps = withSession(async function ({ req, res }) {
 export default SsrProfile
 
 function githubUrl(login) {
-  return `https://ffo4vnt2.directus.app/items/users/${login}`
+  return `https://api.github.com/users/${login}`
 }
 
 SsrProfile.propTypes = {
