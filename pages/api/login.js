@@ -3,7 +3,7 @@ import withSession from '../../lib/session'
 
 export default withSession(async (req, res) => {
   const { username } = await req.body
-  const url = `https://api.github.com/users/${username}`
+  const url = `https://main-bvxea6i-zaz5zyrpktiw2.us-2.platformsh.site/items/users/${username}`
 
   try {
     // we check that the user exists on GitHub and store some data in session
